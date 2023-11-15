@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 100px;
+    gap: 35px;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+svg{
+    position: absolute;
+    margin-top: 56px;
+    font-size: 30px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+li{
+    transition: 0.5s;
+}
+
+
+li:hover{
+    background-color: darkslategrey;
+    transition: 0.5s;
+    border-radius: 5px;
+    height: 30px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+svg:hover{
+    border-radius: 4px;
+    padding-left: 10px;   
+    background-color: darkslategray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
